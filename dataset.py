@@ -11,8 +11,7 @@ DATAPATH = path.dirname(path.abspath(__file__)) + '/data/'
 class NCDataset(object):
     def __init__(self, name, root=f'{DATAPATH}'):
         """
-        based off of ogb NodePropPredDataset
-        https://github.com/snap-stanford/ogb/blob/master/ogb/nodeproppred/dataset.py
+        A unified and scalable class of dataset.
         Gives torch tensors instead of numpy arrays
             - name (str): name of the dataset
             - root (str): root directory to store the dataset folder
@@ -30,7 +29,6 @@ class NCDataset(object):
                          'edge_feat': None,
                          'node_feat': node_feat,
                          'num_nodes': num_nodes}
-        For additional documentation, see OGB Library-Agnostic Loader https://ogb.stanford.edu/docs/nodeprop/
         
         """
 
