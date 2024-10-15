@@ -1,4 +1,4 @@
-# Demo code implementation for the TFGNN ($\underline{\text{T}}$rigonometric $\underline{\text{F}}$ilter $\underline{\text{G}}$raph $\underline{\text{N}}$eural $\underline{\text{N}}$etwork)
+# Demo code implementation for the TFGNN (<u>T</u>rigonometric <u>F</u>ilter <u>G</u>raph <u>N</u>eural <u>N</u>etwork)
 
 ## Environment
 Ubunto-22.04
