@@ -1,19 +1,19 @@
 # Demo code implementation for the TFGNN (<u>T</u>rigonometric <u>F</u>ilter <u>G</u>raph <u>N</u>eural <u>N</u>etwork)
 
 ## Environment
-Ubunto-22.04
-CUDA-11.8
-python == 3.10
-torch == 2.4.0
-torchvision == 0.19.1
-torchaudio == 2.4.1
-torch-geometric == 2.6.0
-pyg_lib == 0.4.0
-torch_cluster == 1.6.3
-torch_scatter == 2.1.2
-torch_sparse == 0.6.18
-torch_spline_conv == 1.2.2
-(dgl == 1.1.0)
+Ubunto-22.04  
+CUDA-11.8  
+python == 3.10  
+torch == 2.4.0  
+torchvision == 0.19.1  
+torchaudio == 2.4.1  
+torch-geometric == 2.6.0  
+pyg_lib == 0.4.0  
+torch_cluster == 1.6.3  
+torch_scatter == 2.1.2  
+torch_sparse == 0.6.18  
+torch_spline_conv == 1.2.2  
+
 
 ## Executions
 You can input the code below to reproduce partial of experiments.
@@ -34,4 +34,4 @@ You can input the code below to reproduce partial of experiments.
 `python train.py --dataset amazon-ratings --r_train 0.5 --r_val 0.25 --lr 0.001 --prop_lr 0.5 --weight_decay 0.0005 --prop_wd 0 --dropout 0.5 --dprate 0 --K 4 --omega 0.3`
 
 ## Notes
-- This code offers a reproducibility demo for the current conference submission. Full implementation details will be shared after acceptance.
+- This code offers a reproducible demo for the conference submission as well as fast experiments for further research. Full implementations will be shared in the near future.
